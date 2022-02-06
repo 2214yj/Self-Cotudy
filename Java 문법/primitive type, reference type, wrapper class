@@ -1,0 +1,21 @@
+# Primitive 자료형과 Reference 자료형과 Wrapper 클래스
+- Primitive 타입과 Reference 타입의 가장 큰 차이점은 "메모리 참조 타입인다?"이다.
+primitive 타입은 직접 데이터를 담는 타입(실제 값을 저장하는 공간으로 스택 메모리에 저장된다). 8가지의 기본형 타입을 미리 정의하여 제공한다.
+기본값이 있기 때문에 NULL이 존재하지 않는다. 기본형 타입에 NULL을 넣고 싶다면 래퍼 클래스를 활용해야 한다.
+컴파일 시점에 담을 수 있는 크기를 벗어나면 에러를 발생시키는 컴파일 에러가 발생한다.
+primitive 타입으로는 boolean,byte,short,int,long,float,double,char 이 있다.
+
+reference 타입은 메모리에 공간이 할당되면 주소값을 담는다. 빈 객체를 의미하는 NULL이 존재한다.
+값이 저장되어 있는 곳의 주소값을 저장하는 공간으로 힙 메모리에 저장된다.
+문법상으로는 에러가 없지만 실행시켰을 때 에러가 발생하는 런타임 에러가 발생한다.
+reference 타입으로는 배열,열거,클래스,인터페이스가 있다.
+
+Wrapper Class란 기본 타입(primitice type)을 객체로 다루기 위해서 사용하는 클래스들이다. 즉, wrapper class는 primitive type을 객체화한 것.
+래퍼 클래스로 감싸고 있는 기본 타입 값은 외부에서 변경할 수 없다. 만약 값을 변경하고 싶다면 새로운 포장 객체를 만들어야 한다.
+래퍼 클래스의 종류로는 Byte, Character, Integer, Float, Double, Boolean, Long, Short가 있다.
+모든 래퍼 클래스의 부모는 Object 이다. 기본 타입의 값을 포장 객체로 만드는 과정을 박싱이라고 하고 반대는 언박싱이라고 한다.
+래퍼 객체는 내부의 값을 비교하기 위해 == 연산자를 사용할 수 없다. 이 연산자는 내부의 값을 비교하는 것이 아니라 래퍼 객체의 참조 주소를 비교하기 때문이다.
+Ex) 래퍼클래스 == 래퍼클래스 //false   래퍼클래스 .equals(래퍼클래스) //true
+
+wrapper class는 primitive type과 달리 객체 형태로 생성되어 null 값이 들어갈 수 있고, toString과 같은 메소드를 사용할 수 있으며, 제네릭 형태로도 사용할 수 있다.
+객체나 null이 필요없다면 primitive type을 사용하는 것이 메모리 측면에서 효율적이다.

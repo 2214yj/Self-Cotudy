@@ -1,0 +1,22 @@
+#1차원 배열
+int[n] array;
+int array[n];
+Integer[] array = new Integer[10];
+Integer[] array = {1,2,3};
+
+#List와 ArrayList
+- List는 인터페이스이고 ArrayList는 클래스이다.
+
+#ArrayList와 그냥 배열 Arry
+- ArrayList는 동적으로 크기를 변경할 수 있다. add/remove 시 배열 사이즈가 변동.
+특정 위치에 element를 추가, 삭제 가능하다.
+제네릭을 사용하지 않고 선언한다면 다양한 타입의 객체를 저장할 수 있다.
+ListIterator를 사용해 양방향 순회가 가능하다.(hasNext(),next(),hasPrevious(),previous())
+
+
+#ArrayList 배열
+array.add(n) //배열에 추가
+array.get(i) //i번째 배열값을 읽어서 출력
+array.set(i,n) //i번째 배열값을 n으로 변경
+array.remove(i) //i번째 배열값 삭제
+array.size() //배열 길이 확인
