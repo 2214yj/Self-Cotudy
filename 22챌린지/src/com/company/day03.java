@@ -30,7 +30,7 @@ StringBuffer는 동기화 키워드를 지원하여 멀티쓰레드 환경에서
 
 결론
 String : 문자열 연산이 적고 멀티쓰레드 환경일 경우
-StringBuffer : 문자열 연산이 많고 멀티쓰레드 환경이 경우
+StringBuffer : 문자열 연산이 많고 멀티쓰레드 환경일 경우
 StringBuilder 문자열 연산이 많고 단일쓰레드이거나 동기화를 고려하지 않아도 되는 경우
 
 3. split 주의 사항

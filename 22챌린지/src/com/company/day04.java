@@ -33,8 +33,56 @@ Scanner의 코드를 뜯어보면 정규식을 과도하게 많이 검사한다.
 6. String 은 입력 메소드의 타입에 맞게 반환함 ( nextInt() - Integer.parseInt() / nextDouble() - Double.parseDouble() 등등.. )
 
 - BufferedReader()
+BufferedReader도 카찬가지로 inputStream을 통해 바이트 단위로 데이터 입력을 받고 입력 데이터를 char 형태로 처리하기 위해 중개자 역할인 문자스트림 InputStreamReader로 감싸준다.
+그러면 BufferedReader는 왜 필요할까?
+InputStreamReader는 '문자'를 처리하기 때문에 Scanner의 경우, 내부에서 임시 배열을 두어 문자열처럼 사용하고 있다.
+이 때문에 문자열을 입력하고 싶다면 매번 배열을 선언해야 하고 입력받을 문자열의 길이가 가변적이라면 더욱 불편하다.
+그래서 쓰는 것이 Buffer를 통해 입력받은 문자를 쌓아둔 뒤 한 번에 문자열처럼 보내버리는 것이다.
+BufferedReader를 사용할 때 우리는 입력 메소드로 readLine()을 많이 쓴다. 이 메소드는 한 줄 전체(공백 포함)를 읽기 때문에 char 배열을 하나하나 생성할 필요 없이 String으로 리턴하여 바로 받을 수 있다는 장점이 있다.
 
-2. Arrays.sort
+따라서, 다음과 같이 볼 수 있다.
+Byte Type = InputStream
+Char Type InputStreamReader
+Char Type의 직렬화 = BufferedReader
+
+BufferedReader의 특징은 다음과 같다.
+1. 버퍼가 있는 스트림이다.
+2. 별다른 정규식을 검사하지 않는다.
+즉, 이 두개의 특징 덕분에 Scanner에 비해 성능이 우수할 수 밖에 없다.
+
+결론 마무리.
+1. InputStream 은 바이트 단위로 데이터를 처리한다. 또한 System.in 의 타입도 InputStream 이다.
+2. InputStreamReader 은 문자(character) 단위로 데이터를 처리할 수 있도록 돕는다. InputStream 의 데이터를 문자로 변환하는 중개 역할을 한다.
+3 BufferedReader 은 스트림에 버퍼를 두어 문자를 버퍼에 일정 정도 저장해둔 뒤 한 번에 보낸다.
+
+=> 자바 알고리즘에서 Scanner를 굳이 써야 할 의미가 없다.(input이 대부분 주어지는 조건에 맞는 입력만 주어지기 때문에)
+BufferedReader을 통해 문자열을 받아온 뒤, Ingeger.parseInt90 같은 파싱 함수들을 통해 타입을 변환해주는 것이 성능 경쟁 알고리즘에서는 훨씬 선호될 수 밖에 없다.
+
+2. Arrays 클래스
+http://www.tcpschool.com/java/java_api_arrays
+
+Arrays 클래스는 배열을 다루기 위한 다양한 메소드가 포함되어 있다. Arrays 클래스의 모든 메소드는 클래스 메소드(static method)이므로, 객체를 생성하지 않고도 바로 사용할 수 있다.
+
+1. binarySearch()   //전달받은 배열에서 특정 객체의 위치를 이진 검색 알고리즘을 이용하여 검색한 후, 해당 위치를 반환
+ex) Arrays.binarySearch(arr, 437)
+
+2. copyOf() //전달받은 배열의 특정 길이만큼 새로운 배열로 복사하여 반환
+ex) Arrays.copyOf(arr1, 3)
+
+3. copyOfRange()    //전달받은 배열의 특정 범위에 해당하는 요소만을 새로운 배열로 복사하여 반환.
+ex) Arrays.copyOfRange(arr1, 2, 4)  //arr1의 2~3번 인덱스만 복사됨.
+
+4. fill()   //전달받은 배열의 모든 요소를 특정값으로 초기화
+ex) Arrays.fill(arr, 7) //arr배열 값을 모두 7로 초기화
+
+5. sort()   //전달받은 배열의 모든 요소를 오름차순으로 정렬
+ex) Arrays.sort(arr)    //arr 배열의 모든 요소를 오름차순으로 정렬
+
+이 외에도 Arrays의 대표적인 메소드는
+asList(전달받은 배열을 고정 크기의 리스트로 변환하여 반환)
+equals(전달받은 두 배열이 같은지를 확인)
+등이 있다.
+
  */
 public class day04 {
     public static void main(String args[]) {
