@@ -72,7 +72,7 @@ skip(int n) //n개의 문자를 건너 뜀.
 
 사용 예시:
 BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-String str - br.readLine();
+String str = br.readLine();
 
 - BufferWriter
 이 역시 많은 양의 출력에서 효율적일 수 있다.
