@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="7week:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="08867036-3c82-4f20-addf-2fc80fb35aea" name="변경" comment="고급 자바 실습">
+      <change afterPath="$PROJECT_DIR$/../../../.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../5week/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../5week/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../5week/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../5week/src/main/java/Tire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../5week/src/main/java/Tube.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../5week/src/main/java/WheelFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6week/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6week/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6week/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6week/src/main/java/week6/Owner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6week/src/main/java/week6/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6week/src/main/java/week6/Sports.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6week/src/main/java/week6/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/7week_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Owner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midexam/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midexam/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midexam/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midexam/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midexam/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midexam/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midexam/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midexam/src/main/java/AppContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midexam/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midexam/src/main/java/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midexam/target/classes/AppContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midexam/target/classes/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midexam/target/classes/Member.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midterm/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midterm/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midterm/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midterm/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midterm/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midterm/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midterm/src/main/java/com/example/midterm/MidtermApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midterm/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../midterm/src/test/java/com/example/midterm/MidtermApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/runConfigurations.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="27w8piwKQDsNgwlELq1I5zPMurQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="모듈" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.16722411" />
+  </component>
+  <component name="RunManager">
+    <configuration name="7week" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.62" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="7week:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="2a3b1f79-b5b0-4ae1-9d06-b7c40bd61fd3" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </extension>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51252" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="7week:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="08867036-3c82-4f20-addf-2fc80fb35aea" name="변경" comment="" />
+      <created>1650219972584</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650219972584</updated>
+      <workItem from="1650219973748" duration="114000" />
+      <workItem from="1650220101293" duration="708000" />
+      <workItem from="1650261960157" duration="4727000" />
+      <workItem from="1650306637969" duration="116000" />
+      <workItem from="1650434812119" duration="73000" />
+      <workItem from="1650485260862" duration="23000" />
+      <workItem from="1650639424286" duration="1819000" />
+    </task>
+    <task id="LOCAL-00001" summary="고급 자바 실습">
+      <created>1650306712340</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1650306712340</updated>
+    </task>
+    <task id="LOCAL-00002" summary="고급 자바 실습">
+      <created>1650434875303</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1650434875303</updated>
+    </task>
+    <task id="LOCAL-00003" summary="고급 자바 실습">
+      <created>1650485269230</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1650485269230</updated>
+    </task>
+    <task id="LOCAL-00004" summary="고급 자바 실습">
+      <created>1650639434190</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1650639434190</updated>
+    </task>
+    <task id="LOCAL-00005" summary="고급 자바 실습">
+      <created>1650645982400</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1650645982400</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="고급 자바 실습" />
+    <option name="LAST_COMMIT_MESSAGE" value="고급 자바 실습" />
+  </component>
+</project>
