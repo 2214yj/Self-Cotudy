@@ -20,7 +20,6 @@ public class Team {
         System.out.println("팀 객체가 생성되었습니다.");
     }
 
-
     public String getName() {
         return name;
     }
