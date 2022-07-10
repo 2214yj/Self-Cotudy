@@ -2,12 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/spring 실습/src/9week" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/spring 실습/src/demo1" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/고급자바프로그래밍/src/10week" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/고급자바프로그래밍/src/9week" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/고급자바프로그래밍/src/demo1" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/고급자바프로그래밍/src/week11" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/고급자바프로그래밍/src/week9" vcs="Git" />
   </component>
 </project>

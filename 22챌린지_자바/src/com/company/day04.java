@@ -3,7 +3,7 @@ package com.company;
 import java.util.Scanner;
 
 /*
-4일차 푼 문제들: 1008, 1330, 2753, 9498, 2438, 2439, 2739, 2741, 2742, 2884, 10818
+4일차 푼 문제들: 1008, 1330, 2753, 9498, 2438, 2439, 2739.py, 2741, 2742, 2884, 10818
 
 1. 자바 입력 복습 - Scanner, InputStream, BufferedReader
 https://st-lab.tistory.com/41
